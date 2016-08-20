@@ -22,4 +22,8 @@ class Product extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function page10()
+	{
+		$this->load->view('page10');
+	}
 }
