@@ -18,12 +18,19 @@ class Product extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function homepage()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('Homepage');
 	}
 	public function page10()
 	{
 		$this->load->view('page10');
 	}
+
+	public function page_9()
+	{
+		$this->load->view('Page_9');
+	}
+
+
 }
